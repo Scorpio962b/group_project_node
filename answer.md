@@ -1,0 +1,10 @@
+What is event loop in nodejs?
+The event loop is a mechanism that handles and processes external events and converts them into callback innovations. It allows Node.js to handle non-blocking I/O operations, despite JavaScript being single-threaded, by offloading operations to the system kernel whenever possible. This enables Node.js to support high concurrency and throughput, making it suitable for t=data-intensive real-time application
+
+Q5 Node.js is a runtime environment that allows JavaScript to be run on the server side. It uses Googles V8 JavaScript engine and adds additional features not available in client-side JavaScript such as file system I/O, networking(HTTP) etc. Its designed for building scalable network applications, and is good at handling many simultaneous connections with high throughput, which makes it good for real-time applications
+Express.js is a web application framework that runs on top of Node.js. It provides tools and features to simplify the process of building web servers with Node.js. It offers robust routing, a powerful middleware system, and simple APIs for sending responses, handling requests etc
+
+Q6
+API: a set of rules and protocols for building and interacting with software applications. It defines how different software components should interact with each other. In the context of web development, it often describes the endpoints, request methods, and data formats that a client can use to request data from a server.
+REST API: A type of API that adheres to the principles of REST architectural style. REST is a set of constraints for designing networked applications and uses standard HTTP methods like GET, POST, PUT, DELETE etc to perform operations. It is stateless which means that each request from client to server must contain all the information needed to understand and process the request
+RESTful API: It's an API that adheres to the principles of REST. The term "RESTful" is used more as an adjective to describe an API that follows the constraints of REST, while REST API is used as a noun. In practice, the two terms are often used interchangeably.
